@@ -1,0 +1,42 @@
+# config/suite.def
+# This file is used to build several benchmarks with a single command. 
+# Typing "make suite" in the main directory will build all the benchmarks
+# specified in this file. 
+# Each line of this file contains a benchmark name, class, and number
+# of nodes. The name is one of "sp-mz", "bt-mz", and "lu-mz". 
+# The class is one of "S", "W", and "A" through "F". 
+# No blank lines. 
+# The following example builds serial sample sizes of all benchmarks. 
+bt-mz	D 8
+sp-mz	D 8
+lu-mz	D 8
+bt-mz   D 12
+sp-mz   D 12
+lu-mz   D 12
+bt-mz   D 16
+sp-mz   D 16
+lu-mz   D 16
+bt-mz   D 192
+sp-mz   D 192
+bt-mz   D 288
+sp-mz   D 288
+bt-mz   D 384
+sp-mz   D 384
+bt-mz   D 18
+bt-mz   D 24
+bt-mz   D 32
+bt-mz   D 36
+bt-mz   D 48
+bt-mz   D 64
+bt-mz   D 72
+bt-mz   D 96
+bt-mz   D 144
+sp-mz   D 18
+sp-mz   D 24
+sp-mz   D 32
+sp-mz   D 36
+sp-mz   D 48
+sp-mz   D 64
+sp-mz   D 72
+sp-mz   D 96
+sp-mz   D 144
